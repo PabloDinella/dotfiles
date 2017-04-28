@@ -1,7 +1,15 @@
 # dotfiles
 My dotfiles
 
-## Set screensavers
+**Internet Explorer 11 for VirtualBox**
+
+(2Gb+)
+
+```
+wget https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE11/Windows/IE11.Win8.1.For.Windows.VirtualBox.zip
+```
+
+**Set screensavers**
 
 ``` 
 sudo dnf install xscreensaver mp && \
