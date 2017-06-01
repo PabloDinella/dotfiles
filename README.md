@@ -18,3 +18,11 @@ wget https://github.com/PabloDinella/dotfiles/blob/master/peixes.mp4 -O ${HOME}/
 wget https://github.com/PabloDinella/dotfiles/blob/master/periquito.mp4 -O ${HOME}/videos/periquito.mp4 && \
 xscreensaver-demo
 ```
+
+## Ajeitar depois
+
+```
+git config --global user.email "pablo.dinella@gmail.com"
+git config --global user.name "Pablo R. Dinella"
+
+```
