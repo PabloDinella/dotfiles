@@ -24,5 +24,7 @@ xscreensaver-demo
 ```
 git config --global user.email "pablo.dinella@gmail.com"
 git config --global user.name "Pablo R. Dinella"
+# Muda o alt-click que move a janela para super-click (evitar conflito com o 'selecionar objeto por baixo' no inkscape
+gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier "<Super>"
 
 ```
