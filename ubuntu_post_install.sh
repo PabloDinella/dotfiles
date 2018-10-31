@@ -10,10 +10,10 @@ sudo apt --fix-broken install #see below
 # google-chrome-stable : Depends: fonts-liberation but it is not going to be installed
 # sudo apt --fix-broken install fixed the problem
 
-#install oh-my-zsh
+# install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-#install powerline theme
+# install powerline theme
 git clone https://github.com/bhilburn/powerlevel9k.git ~/powerlevel9k
 echo 'source  ~/powerlevel9k/powerlevel9k.zsh-theme' >> ~/.zshrc
 
@@ -25,6 +25,10 @@ mv PowerlineSymbols.otf ~/.local/share/fonts/
 fc-cache -vf ~/.local/share/fonts/
 mkdir -p ~/.config/fontconfig/conf.d/
 mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+
+# install zsh auto suggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
