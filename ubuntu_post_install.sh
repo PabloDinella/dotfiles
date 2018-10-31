@@ -12,3 +12,7 @@ sudo apt --fix-broken install #see below
 
 #install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+#install powerline theme
+git clone https://github.com/bhilburn/powerlevel9k.git ~/powerlevel9k
+echo 'source  ~/powerlevel9k/powerlevel9k.zsh-theme' >> ~/.zshrc
