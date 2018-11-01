@@ -32,5 +32,5 @@ gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier "<Super>"
 ## .deb files to install with [Eddy](https://github.com/donadigo/eddy)
 
 https://slack.com/downloads/linux
-https://telegram.org/dl/desktop/linux
+https://telegram.org/dl/desktop/linux (if accents are not working, [see](https://github.com/telegramdesktop/tdesktop/issues/1360#issuecomment-254591620)
 https://discordapp.com/api/download?platform=linux&format=deb
