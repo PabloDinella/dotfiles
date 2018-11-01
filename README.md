@@ -28,3 +28,9 @@ git config --global user.name "Pablo R. Dinella"
 gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier "<Super>"
 
 ```
+
+## .deb files to install with [Eddy](https://github.com/donadigo/eddy)
+
+https://slack.com/downloads/linux
+https://telegram.org/dl/desktop/linux
+https://discordapp.com/api/download?platform=linux&format=deb
