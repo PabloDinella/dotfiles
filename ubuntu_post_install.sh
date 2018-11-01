@@ -1,6 +1,9 @@
 sudo apt update -y && sudo apt upgrade -y
 
-sudo apt install git zsh -y
+sudo apt install -y \
+git \
+zsh \
+vim
 
 # install chrome
 sudo wget -O - https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb > /tmp/chrome.deb
