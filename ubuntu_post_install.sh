@@ -39,9 +39,11 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-export NVM_DIR="$HOME/.nvm"
+echo "export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+" >> ~/.zshrc
+source ~/.zshrc
 
 # install yarn
 # https://stackoverflow.com/questions/40025890/why-wouldnt-i-use-npm-to-install-yarn
