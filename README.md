@@ -35,3 +35,4 @@ gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier "<Super>"
 - https://telegram.org/dl/desktop/linux (if accents are not working, [see](https://github.com/telegramdesktop/tdesktop/issues/1360#issuecomment-254591620)
 - https://discordapp.com/api/download?platform=linux&format=deb
 - https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+- https://code.visualstudio.com/docs/?dv=linux64_deb
