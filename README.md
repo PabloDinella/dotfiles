@@ -1,6 +1,12 @@
 # dotfiles
 My dotfiles
 
+## Run Ubuntu 18.04 post install
+
+```
+sh -c "$(wget https://raw.githubusercontent.com/PabloDinella/dotfiles/master/ubuntu_post_install.sh -O -)"
+``` 
+
 **Internet Explorer 11 for VirtualBox**
 
 (2Gb+)
