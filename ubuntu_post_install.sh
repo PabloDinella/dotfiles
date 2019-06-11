@@ -2,10 +2,16 @@ sudo apt update -y && sudo apt upgrade -y
 
 sudo apt install -y \
 git \
-zsh \
+fish \
 vim \
 curl \
 terminator
+
+# setup fish shell as default, install fisher and omf, install spacefish prompt
+chsh -s $(which fish)
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+curl -L https://get.oh-my.fish | fish
+fisher add matchai/spacefish
 
 # disable caps lock
 # source http://bartssolutions.blogspot.com/2017/10/disable-caps-lock-in-ubuntu-1604.html
