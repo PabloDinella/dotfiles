@@ -43,4 +43,3 @@ gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier "<Super>"
 - https://discordapp.com/api/download?platform=linux&format=deb
 - https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 - https://code.visualstudio.com/docs/?dv=linux64_deb
-- https://www.teamviewer.com/en/
