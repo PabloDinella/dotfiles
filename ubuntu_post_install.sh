@@ -7,6 +7,10 @@ vim \
 curl \
 terminator
 
+# disable caps lock
+# source http://bartssolutions.blogspot.com/2017/10/disable-caps-lock-in-ubuntu-1604.html
+dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:none']"
+
 # install chrome
 sudo wget -O - https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb > /tmp/chrome.deb
 sudo dpkg -i /tmp/chrome.deb
