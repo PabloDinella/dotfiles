@@ -1,5 +1,9 @@
 # dotfiles
-My dotfiles
+My dotfiles/setup instructions
+
+Install neovim: https://www.linode.com/docs/tools-reference/tools/how-to-install-neovim-and-plugins-with-vim-plug/#install-the-neovim-appimage
+
+## Next stuff needs review
 
 ## Run Ubuntu 18.04 post install
 
