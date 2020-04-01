@@ -1,3 +1,5 @@
+let mapleader = ","
+
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
@@ -6,12 +8,14 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug '~/.fzf'
+Plug 'numkil/ag.nvim'
 
 " Initialize plugin system
 call plug#end()
 
 " NERDTreeToggle
 nnoremap <silent> <C-Bslash> :NERDTreeToggle<CR>
+map <leader>e :NERDTreeFind<cr>
 
 " FZF 
 nnoremap <silent> <C-p> :FZF<CR>
@@ -19,20 +23,12 @@ nnoremap <silent> <C-p> :FZF<CR>
 " General mappings
 nnoremap <silent> <Leader>c :edit $MYVIMRC<CR>
 nnoremap <silent> <Leader>r :source $MYVIMRC<CR>
-
-
-
-
+nnoremap gb :ls<CR>:b<Space>
 
 
 " coc-prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 " nmap <leader>f :CocCommand prettier.formatFile
-
-
-
-
-
 
 
 " default coc.nvim config
