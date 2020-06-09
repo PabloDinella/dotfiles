@@ -1,11 +1,16 @@
 sudo apt update -y && sudo apt upgrade -y
 
+add-apt-repository ppa:mmstick76/alacritty
+
+sudo apt update
+
 sudo apt install -y \
 git \
 fish \
 vim \
 curl \
-terminator
+terminator \
+alacritty
 
 # setup fish shell as default, install fisher and omf, install spacefish prompt
 chsh -s $(which fish)
