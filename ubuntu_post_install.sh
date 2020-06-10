@@ -10,7 +10,11 @@ fish \
 vim \
 curl \
 terminator \
-alacritty
+alacritty \
+flameshot
+
+git config --global user.email "pablo.dinella@gmail.com"
+git config --global user.name "PabloDinella"
 
 # setup fish shell as default, install fisher and omf, install spacefish prompt
 chsh -s $(which fish)
