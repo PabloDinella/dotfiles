@@ -10,7 +10,8 @@ fish \
 vim \
 curl \
 terminator \
-alacritty
+alacritty \
+flameshot
 
 git config --global user.email "pablo.dinella@gmail.com"
 git config --global user.name "PabloDinella"
