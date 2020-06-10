@@ -12,6 +12,9 @@ curl \
 terminator \
 alacritty
 
+git config --global user.email "pablo.dinella@gmail.com"
+git config --global user.name "PabloDinella"
+
 # setup fish shell as default, install fisher and omf, install spacefish prompt
 chsh -s $(which fish)
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
