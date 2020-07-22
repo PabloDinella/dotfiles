@@ -24,7 +24,8 @@ fisher add matchai/spacefish
 
 # disable caps lock
 # source http://bartssolutions.blogspot.com/2017/10/disable-caps-lock-in-ubuntu-1604.html
-dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:none']"
+# dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:none']"
+# commented that in favor of https://blog.guilhermegarnier.com/2017/12/increasing-productivity-in-tmux-with-a-single-prefix-key/
 
 # install chrome
 sudo wget -O - https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb > /tmp/chrome.deb
