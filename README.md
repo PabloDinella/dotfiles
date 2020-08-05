@@ -53,10 +53,11 @@ https://blog.guilhermegarnier.com/2017/12/increasing-productivity-in-tmux-with-a
 
 Here are some workflow hacks that I might forget, or might be interesting for someone reading this:
 
-<details>
+- <details>
   <summary>It's possible to switch between open windows with Super + 1, Super + 2, etc, so you don't have to cycle through alt + tab until you reach your window</summary>
   
   The order of the apps in the sidebar defines the number of it, in the following case Chrome is Super + 1, Alacritty is Super + 2 and so on
   
   ![image](https://user-images.githubusercontent.com/2482730/89364441-da16d280-d6a8-11ea-81f1-ef231bd07ffe.png)
 </details>
+- Cool apps for sharing screenshots and gifs of screen (flameshot and peek): https://twitter.com/pablordinella/status/1283101626228711424
