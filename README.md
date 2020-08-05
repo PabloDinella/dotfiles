@@ -38,6 +38,7 @@ git config --global user.name "Pablo R. Dinella"
 gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier "<Super>"
 
 ```
+https://blog.guilhermegarnier.com/2017/12/increasing-productivity-in-tmux-with-a-single-prefix-key/
 
 ## .deb files to install with [Eddy](https://github.com/donadigo/eddy)
 
