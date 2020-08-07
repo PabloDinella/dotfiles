@@ -62,3 +62,9 @@ Here are some workflow hacks that I might forget, or might be interesting for so
 </details>
 
 - Cool apps for sharing screenshots and gifs of screen (flameshot and peek): https://twitter.com/pablordinella/status/1283101626228711424
+
+- <details>
+  <summary>You can change Slack preferences to be able to use ArrowUp to edit your last message</summary>
+  
+  ![image](https://user-images.githubusercontent.com/2482730/89646599-705a1c80-d892-11ea-8f0b-99907f4fcb4e.png)
+</details>
