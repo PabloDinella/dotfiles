@@ -2,7 +2,7 @@
 
 ```
 git config --global user.email "pablo.dinella@gmail.com"
-git config --global user.name "Pablo R. Dinella"
+git config --global user.name "PabloDinella"
 ```
 
 ## Runescape
