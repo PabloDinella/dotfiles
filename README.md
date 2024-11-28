@@ -8,6 +8,9 @@ git config --global user.name "Pablo R. Dinella"
 ## Runescape
 
 How to play in HiDPI (with Bolt launcher): https://github.com/Adamcake/Bolt/issues/68
+```
+GDK_SCALE=3 GDK_DPI_SCALE=0.5 bolt
+```
 
 ## Self reminders
 
