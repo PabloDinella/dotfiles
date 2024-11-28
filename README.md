@@ -1,5 +1,9 @@
 # WIP
 
+- fish
+- fisher
+- fisher install lewisacidic/fish-git-abbr
+
 ```
 git config --global user.email "pablo.dinella@gmail.com"
 git config --global user.name "PabloDinella"
