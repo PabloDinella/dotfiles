@@ -9,6 +9,31 @@ git config --global user.email "pablo.dinella@gmail.com"
 git config --global user.name "PabloDinella"
 ```
 
+## Ubuntu 24.04
+
+1. Update the system
+```
+sudo apt update
+sudo apt upgrade
+```
+
+2. Install Brave
+```
+sudo apt install curl
+curl -fsS https://dl.brave.com/install.sh | sh
+```
+
+3. Install KDEConnect and send the Brave sync code over it from another device
+4. Install fish and make it default shell
+```
+sudo apt install fish
+chsh -s /usr/bin/fish
+```
+For it to take effect, I had to restart.
+
+5. Install WezTerm
+TODO
+
 ## Runescape
 
 How to play in HiDPI (with Bolt launcher): https://github.com/Adamcake/Bolt/issues/68
