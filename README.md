@@ -12,27 +12,56 @@ git config --global user.name "PabloDinella"
 ## Ubuntu 24.04
 
 1. Update the system
-```
-sudo apt update
-sudo apt upgrade
-```
+    ```
+    sudo apt update
+    sudo apt upgrade
+    ```
 
 2. Install Brave
-```
-sudo apt install curl
-curl -fsS https://dl.brave.com/install.sh | sh
-```
+    ```
+    sudo apt install curl
+    curl -fsS https://dl.brave.com/install.sh | sh
+    ```
 
 3. Install KDEConnect and send the Brave sync code over it from another device
 4. Install fish and make it default shell
-```
-sudo apt install fish
-chsh -s /usr/bin/fish
-```
-For it to take effect, I had to restart.
+    ```
+    sudo apt install fish
+    chsh -s /usr/bin/fish
+    ```
+    _For it to take effect, I had to restart._
 
-5. Install WezTerm
-TODO
+5. Download WezTerm and move it to ~/bin
+    ```
+    curl -LO https://github.com/wez/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-20240203-110809-5046fc22-Ubuntu20.04.AppImage
+    chmod +x WezTerm-20240203-110809-5046fc22-Ubuntu20.04.AppImage
+    mkdir ~/bin
+    mv ./WezTerm-20240203-110809-5046fc22-Ubuntu20.04.AppImage ~/bin/wezterm
+    ```
+
+6. Setup FUSE for running Appimages
+    ```
+    sudo add-apt-repository universe
+    sudo apt install libfuse2t64
+    ```
+
+7. Add ~/bin to path
+    ```
+    fish_add_path ~/bin/
+    ```
+
+8. Install AppImageLauncher
+   
+    ```
+    curl "https://api.github.com/repos/TheAssassin/AppImageLauncher/releases/latest" \
+     | jq .assets[].browser_download_url \
+     | grep amd64.deb \
+     | grep bionic \
+     | xargs -I{} curl -L {} -o ~/Downloads/appimagelauncher.deb    
+    ```
+
+9. Run wezterm and integrate (change default location to ~/bin/)
+10. TODO
 
 ## Runescape
 
