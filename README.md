@@ -9,6 +9,9 @@ git config --global user.email "pablo.dinella@gmail.com"
 git config --global user.name "PabloDinella"
 ```
 
+ghostty dead keys
+https://github.com/ghostty-org/ghostty/discussions/8899#discussioncomment-14717979
+
 ## Ubuntu 24.04
 
 1. Update the system
